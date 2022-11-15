@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: "Lucida Sans Typewriter";
+    background-image: url(img/background.jpg);
+}
+
+footer p{
+    text-align: center;
+}
+h1 {
+    font-weight: 600;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+    color: #742E1F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+}
+.linea {
+    border-top: 3px solid #742E1F;
+    height: 2px;
+    max-width: 650px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+  
+.subtexto {
+    text-align: center;
+    font-family: "Lucida Sans Typewriter";
+    color: black;
+    opacity: 0.25;
+}
+h2 {
+    margin: 10px;
+}
+.nombre-empresa {
+    font-family: Georgia;
+}
+img {
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Platos-Menu {
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+}
+.plato {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    padding-right: 40px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #742E1F;
+}
+
+.logo {
+    /* Hay que ponterlo puesto que esto esta dentro de otro div*/
+    display: flex;
+    align-items: center
+}
+.logo.logo:hover{
+    color: #742E1F;
+}
+.logo img {
+    height: 95px;
+    width: 95px;
+    margin-right: 10px;
+}
+.logo h2:hover
+{
+    color: #742E1F;
+}
+footer {
+    color: white;
+    background-color: black;
+}
